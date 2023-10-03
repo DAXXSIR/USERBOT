@@ -120,7 +120,7 @@ class Aditya(Client, PyTgCalls):
             await asyncio.sleep(1)
             await self.app.send_message(f"@botfather", f"@{self.bot.username}")
             await asyncio.sleep(1)
-            await self.app.send_message(f"@botfather", "🥀 𝐆𝐞𝐧𝐢𝐮𝐬 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ✨")
+            await self.app.send_message(f"@botfather", "🥀 𝐃𝐚𝐱𝐱 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ✨")
         except:
             pass
         try:
