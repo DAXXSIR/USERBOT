@@ -26,9 +26,9 @@ async def aditya():
         log.info(f">> Importing: {all_plugin}.py")
     log.info(">> Successfully Imported All Plugins.")
     await asyncio.sleep(1)
-    log.info("Userbot is Now Ready to Use !")
+    log.info("𝗨𝗦𝗘𝗥 𝗕𝗢𝗧 𝗥𝗘𝗔𝗗𝗬 𝗧𝗢 𝗨𝗦𝗘")
     await idle()
 
 if __name__ == "__main__":
     loop.run_until_complete(aditya())
-    log.info("Userbot Has Been Stopped !")
+    log.info("𝗨𝗦𝗘𝗥 𝗕𝗢𝗧 𝗛𝗔𝗦 𝗦𝗧𝗢𝗣")
