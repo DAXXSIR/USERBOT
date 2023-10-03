@@ -18,7 +18,7 @@ def cb_wrapper(func):
         users = SUDOERS
         if cb.from_user.id not in users:
             await cb.answer(
-                "❎ You Are Not A Sudo User❗",
+                "❎ You Are Not A Sudo User❗.",
                 cache_time=0,
                 show_alert=True,
             )
