@@ -34,11 +34,11 @@ class Config(object):
     RRAIDUB = filters.user([])
     GBANSUB = filters.user([])
     GMUTEUB = filters.user([])
-    #######################################
+    #####################################
     for x in COMMAND_PREFIXES:
         COMMAND_HANDLERS.append(x)
     COMMAND_HANDLERS.append('')
-    #######################################
+    #####################################
 
 
 # get all config variables in a list
